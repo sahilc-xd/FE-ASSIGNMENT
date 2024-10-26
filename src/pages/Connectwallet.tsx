@@ -10,7 +10,7 @@ export const Connectwallet = () => {
 
       <div>
         <AppBar />
-        <div className="relative lg:absolute lg:top-0 lg:right-0 lg:pr-52 mt-4 px-4 w-full lg:w-auto">
+        <div className="relative lg:absolute lg:top-0 lg:right-0 lg:pr-9 mt-4 px-4 w-full lg:w-auto ">
           {/* Use ConnectButton directly to open the wallet connection modal */}
          <RainbowKitProvider modalSize="compact" theme={midnightTheme()} coolMode>
             {/* Your App */}
@@ -22,7 +22,7 @@ export const Connectwallet = () => {
 
       <div className="flex flex-col md:flex-row justify-center items-start gap-8 p-8 mt-12">
         {/* Left Box */}
-        <div className="max-w-[500px] w-full h-[520px] border border-white rounded-lg bg-[#0F1114] p-4 relative shadow-[2.69px_2.69px_0px_0px_#FFFFFF]">
+        <div className="max-w-[500px] w-full h-[600px] border border-white rounded-lg bg-[#0F1114] p-4 relative shadow-[2.69px_2.69px_0px_0px_#FFFFFF]">
           {/* Analytics Header */}
           <div className="flex justify-between items-center mb-4">
             <h2 className="text-white text-xl font-semibold">Analytics</h2>
