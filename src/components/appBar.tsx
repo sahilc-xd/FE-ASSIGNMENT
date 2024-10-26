@@ -1,5 +1,12 @@
 import { FaDiscord } from 'react-icons/fa';
 import { HomeIcon, Users2, BarChart2, FileText, Info } from 'lucide-react';
+import { ReactNode } from 'react';
+
+interface NavLinkProps {
+  href: string;
+  icon: ReactNode;
+  text: string;
+}
 
 export const AppBar = () => {
   return (
@@ -46,7 +53,7 @@ export const AppBar = () => {
 };
 
 // Helper component for navigation links
-const NavLink = ({ href, icon, text }) => {
+const NavLink = ({ href, icon, text }: NavLinkProps) => {
   return (
     <a 
       href={href}

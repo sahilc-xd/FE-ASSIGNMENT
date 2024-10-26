@@ -1,7 +1,8 @@
 import { AppBar } from '../components/appBar';
 import { FaDiscord } from 'react-icons/fa';
-
+import { useNavigate } from 'react-router-dom';
 export const Signin = () => {
+  const navigate = useNavigate();
   return (
     <div className="min-h-screen bg-[#0A0A0A] relative flex flex-col">
       <AppBar />
@@ -110,7 +111,7 @@ export const Signin = () => {
             <button className="bg-[#5865F2] hover:bg-[#4752C4] text-white px-6 py-2 rounded-lg flex items-center space-x-2 border border-[#FFFFFF] shadow-[0_2px_0_0_#FFFFFF]">
               <FaDiscord className="h-5 w-5" />
             </button>
-            <button className="border-2 text-white px-6 py-2 rounded-lg flex items-center space-x-2 border-[#FFFFFF] shadow-[0_2px_0_0_#FFFFFF]">
+            <button className="border-2 text-white px-6 py-2 rounded-lg flex items-center space-x-2 border-[#FFFFFF] shadow-[0_2px_0_0_#FFFFFF]" onClick={() => navigate('/Connectwallet')}>
               <span>Launch app</span>
               <span>🚀</span>
             </button>
