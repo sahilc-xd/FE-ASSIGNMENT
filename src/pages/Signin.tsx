@@ -130,11 +130,8 @@ export const Signin = () => {
         <div className="container mx-auto flex justify-between items-center">
           <div className="text-white">
             <div className="flex items-center space-x-2 mb-2">
-               <img 
-                src='../src/assets/images/Subtract.png' 
-                alt="Logo" 
-                className="h-6 w-6 object-contain"
-              />
+              
+               <img src="https://i.ibb.co/bsvX88p/Subtract.png" alt="Subtract"  className="h-6 w-6 object-contain"/>
               <span className="font-bold">Vault</span>
             </div>
             <p className="text-sm text-gray-400">
