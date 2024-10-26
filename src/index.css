@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* src/index.css */
+@font-face {
+  font-family: 'Dx Dynamix-Free-Personal-Use';
+  src: url('./assets/dxdynamix-bold.otf') format('opentype'),
+       url('./assets/dxdynamix-boldslanted.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Clash Display';
+  src: url('./assets/ClashDisplay-Regular.otf') format('opentype'),
+        url('./assets/ClashDisplay-Medium.otf') format('opentype');
+         /* Use 'opentype' if it's an .otf file */
+  font-weight: 1400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Awesome Serif';
+  src: url('./assets/AwesomeSerif-Regular.otf') format('opentype'); /* Ensure the correct format */
+  font-weight: 400; /* Adjust this based on the weight of the font */
+  font-style: normal;
+}
