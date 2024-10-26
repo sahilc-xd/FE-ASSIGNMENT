@@ -15,7 +15,9 @@ export const AppBar = () => {
        
         <div className="bg-[#204AF8E5] px-4 py-2 flex items-center space-x-6 rounded-lg border border-white shadow-[0px_4px_0px_0px_rgba(255,255,255,1)]">
           <div className="flex items-center space-x-2 pr-8">
-            <img src='../src/assets/images/Subtract.png' alt="Logo" />
+            
+              <img src="https://i.ibb.co/bsvX88p/Subtract.png" alt="Subtract" />
+           
             <span 
               className="text-[#FFFFFF]" 
               style={{

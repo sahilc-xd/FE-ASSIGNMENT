@@ -119,11 +119,8 @@ export const Signin = () => {
           
           <div className="py-20 mb-20"> {/* Added mb-40 for extra bottom margin */}
             <div className="bg-[#204AF8] rounded-3xl p-6 w-24 h-24 mx-auto flex items-center justify-center">
-              <img 
-                src='../src/assets/images/Subtract.png' 
-                alt="Logo" 
-                className="h-16 w-16 object-contain"
-              />
+              
+               <img src="https://i.ibb.co/bsvX88p/Subtract.png" alt="Subtract"  className="h-16 w-16 object-contain"/>
             </div>
           </div>
         </div>
