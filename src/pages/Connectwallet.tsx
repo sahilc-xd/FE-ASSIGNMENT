@@ -1,7 +1,6 @@
-import React from 'react';
 import { AppBar } from '../components/appBar';
 import { ConnectButton } from "@rainbow-me/rainbowkit";
-import { RainbowKitProvider , darkTheme,midnightTheme} from '@rainbow-me/rainbowkit';
+import { RainbowKitProvider ,midnightTheme} from '@rainbow-me/rainbowkit';
 
 export const Connectwallet = () => {
   return (
